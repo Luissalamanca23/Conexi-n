@@ -9,7 +9,7 @@ public class ConexionBD {
     public String Conexion(){
         String url="jdbc:mysql://localhost:3306/libreria";
         String usuario="root";
-        String contraseña="Lola202319*@";
+        String contraseña="";
 
         try{
             Connection conexion=DriverManager.getConnection(url,usuario,contraseña);
